@@ -1,0 +1,53 @@
+.body{
+  
+    background-color: hsl(218, 23%, 16%);
+}
+
+.quoteDiv{
+
+    margin: auto;
+    position: relative;
+    top:200px;
+    width: 450px;
+    height: 300px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px
+}
+
+.quoteH{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color:hsl(150, 100%, 66%);
+    position: relative;
+    top: 50px;
+}
+
+.quoteP{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    position: relative;
+    top: 50px;
+}
+
+.changeButton{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 270px;
+    left: 45%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+border-color: transparent;
+}
+
+.changeButton:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.icon{
+    font-size: 36px;
+}
