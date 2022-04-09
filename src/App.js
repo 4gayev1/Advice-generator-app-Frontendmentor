@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiceFive } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -26,10 +26,10 @@ const [quote,setQuote] = useState({id:[],advice:[]})
 
         <h3 className="quoteH">Advice #{quote.id}</h3>
         <p className="quoteP">"{quote.advice}"</p>
-        <button className="changeButton" onClick={()=>{setAlma(!alma)}}>alma </button>
+        <button className="changeButton" onClick={()=>{setAlma(!alma)}}>  <FontAwesomeIcon className="icon" icon={faDiceFive}/></button>
 
       </div>
-      {/* <FontAwesomeIcon className="icon" icon={faDiceFive}/> */}
+
     </div>
 
   );
